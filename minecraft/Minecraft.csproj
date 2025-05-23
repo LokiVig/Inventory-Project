@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Inventories.Minecraft</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Configurations>Debug;Release;Debug - Skyrim;Release - Skyrim;Debug - Minecraft;Release - Minecraft</Configurations>
+    <BaseOutputPath>$(SolutionDir)build</BaseOutputPath>
+  </PropertyGroup>
+</Project>

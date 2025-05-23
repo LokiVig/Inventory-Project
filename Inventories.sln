@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "program\Program.csproj", "{98D28EA8-2271-40D7-B79B-5CC93310D5B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08} = {63506F0F-5966-48EF-B23C-DBD0CD7A7A08}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minecraft", "minecraft\Minecraft.csproj", "{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyrim", "Skyrim\Skyrim.csproj", "{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - Minecraft|Any CPU = Debug - Minecraft|Any CPU
+		Debug - Skyrim|Any CPU = Debug - Skyrim|Any CPU
+		Release - Minecraft|Any CPU = Release - Minecraft|Any CPU
+		Release - Skyrim|Any CPU = Release - Skyrim|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Debug - Minecraft|Any CPU.ActiveCfg = Debug - Minecraft|Any CPU
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Debug - Minecraft|Any CPU.Build.0 = Debug - Minecraft|Any CPU
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Debug - Skyrim|Any CPU.ActiveCfg = Debug - Skyrim|Any CPU
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Debug - Skyrim|Any CPU.Build.0 = Debug - Skyrim|Any CPU
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Release - Minecraft|Any CPU.ActiveCfg = Release - Minecraft|Any CPU
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Release - Minecraft|Any CPU.Build.0 = Release - Minecraft|Any CPU
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Release - Skyrim|Any CPU.ActiveCfg = Release - Skyrim|Any CPU
+		{98D28EA8-2271-40D7-B79B-5CC93310D5B0}.Release - Skyrim|Any CPU.Build.0 = Release - Skyrim|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Debug - Minecraft|Any CPU.ActiveCfg = Debug - Minecraft|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Debug - Minecraft|Any CPU.Build.0 = Debug - Minecraft|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Debug - Skyrim|Any CPU.ActiveCfg = Debug - Skyrim|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Debug - Skyrim|Any CPU.Build.0 = Debug - Skyrim|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Release - Minecraft|Any CPU.ActiveCfg = Release - Minecraft|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Release - Minecraft|Any CPU.Build.0 = Release - Minecraft|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Release - Skyrim|Any CPU.ActiveCfg = Release - Skyrim|Any CPU
+		{63506F0F-5966-48EF-B23C-DBD0CD7A7A08}.Release - Skyrim|Any CPU.Build.0 = Release - Skyrim|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Debug - Minecraft|Any CPU.ActiveCfg = Debug - Minecraft|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Debug - Minecraft|Any CPU.Build.0 = Debug - Minecraft|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Debug - Skyrim|Any CPU.ActiveCfg = Debug - Skyrim|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Debug - Skyrim|Any CPU.Build.0 = Debug - Skyrim|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Release - Minecraft|Any CPU.ActiveCfg = Release - Minecraft|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Release - Minecraft|Any CPU.Build.0 = Release - Minecraft|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Release - Skyrim|Any CPU.ActiveCfg = Release - Skyrim|Any CPU
+		{8BCA9B9E-666E-44AD-AF0C-8BF01EF8A460}.Release - Skyrim|Any CPU.Build.0 = Release - Skyrim|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Configurations>Debug - Minecraft;Debug - Skyrim;Release - Minecraft;Release - Skyrim</Configurations>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\items\" />
+  </ItemGroup>
+</Project>

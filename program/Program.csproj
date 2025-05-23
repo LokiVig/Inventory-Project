@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Configurations>Debug;Release;Debug - Skyrim;Release - Skyrim;Debug - Minecraft;Release - Minecraft</Configurations>
+    <BaseOutputPath>$(SolutionDir)build</BaseOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\minecraft\Minecraft.csproj" />
+    <ProjectReference Include="..\Skyrim\Skyrim.csproj" />
+  </ItemGroup>
+</Project>
